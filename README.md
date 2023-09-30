@@ -13,19 +13,6 @@ contactForm[comment]               SampleComment-From Rest Api<br>
 
 ### GRAPH QL Sample Payload
 
- >mutation {<br>
-   >>contactus(<br>
-   >>>input:{<br>
-    name: "Mohith"<br>
-    email: "mohithdeveloper@gmail.com"<br>
-    telephone: "9876543211"<br>
-    comment: "SampleComment-From Graph QL"      
-     }<br>
-   >>){<br>
-       msg<br>
-   >>}<br>
- >}
->
 <html>
  <body>
 <!-- HTML Code Start -->

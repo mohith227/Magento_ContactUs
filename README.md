@@ -25,5 +25,25 @@ contactForm[comment]               SampleComment-From Rest Api<br>
        msg<br>
    >>}<br>
  >}
+>
+<html>
+ <body>
+<!-- HTML Code Start -->
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"> <span style="color: #FF0000; background-color: #FFAAAA">mutation</span> {
+   <span style="color: #FF0000; background-color: #FFAAAA">contactus(</span>
+     <span style="color: #FF0000; background-color: #FFAAAA">input:{</span>
+        <span style="color: #FF0000; background-color: #FFAAAA">name:</span> <span style="color: #007700">&quot;Mohith&quot;</span>
+        <span style="color: #FF0000; background-color: #FFAAAA">email</span>: <span style="background-color: #fff0f0">&quot;mohithdeveloper@gmail.com&quot;</span>
+        <span style="color: #FF0000; background-color: #FFAAAA">telephone</span>: <span style="background-color: #fff0f0">&quot;9876543211&quot;</span>
+        <span style="color: #FF0000; background-color: #FFAAAA">comment</span>: <span style="background-color: #fff0f0">&quot;SampleComment-From Graph QL&quot;</span>       
+     }
+   <span style="color: #FF0000; background-color: #FFAAAA">)</span>{
+       <span style="color: #FF0000; background-color: #FFAAAA">msg</span>
+   }
+ <span style="color: #FF0000; background-color: #FFAAAA">}</span>
+</pre></div>
+<!-- HTML Code End -->
+ </body>
+</html>
  
 Thank you for using the module. Always happy to hear from you. The code improvements and module enhancements are appreciated. For any Magento 2 projects or Magento 2 freelancing, contact me at "mohithdeveloper@gmail.com".

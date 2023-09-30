@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mohith_ContactUs::magento_contactus_grid" title="Contact Us" module="Mohith_ContactUs" sortOrder="100"
+             parent="Magento_Review::catalog_reviews_ratings_reviews_all" action="contact/index/index"
+             resource="Magento_Reports::magento_contactus_grid" dependsOnConfig="contact/contact/display_grid"/>
+    </menu>
+</config>
+

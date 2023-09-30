@@ -1,0 +1,13 @@
+type Mutation {
+    contactus(input: FormData!): Message
+    @resolver(class:"Mohith\\ContactUs\\Model\\Resolver\\ContactUs")@doc(description: "Contact Us form Submission")
+}
+input FormData {
+    name: String @doc(description: "Name")
+    email: String @doc(description: "Email ID")
+    telephone: String @doc(description: "Phone Number")
+    comment: String @doc(description: "Message")
+}
+type Message {
+    msg: String
+}

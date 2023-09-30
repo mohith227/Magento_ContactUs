@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Mohith\ContactUs\Api\ContactUsRepositoryInterface"
+                type="Mohith\ContactUs\Model\ContactUsRepository"/>
+    <preference for="Mohith\Contact\Api\Data\ContactUsInterface"
+                type="Mohith\ContactUs\Model\ContactUs"/>
+    <preference for="Mohith\ContactUs\Api\ContactUsManagementInterface"
+                type="Mohith\ContactUs\Model\ContactUsManagement"/>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magento_contactus_grid_data_source" xsi:type="string">
+                    Mohith\ContactUs\Model\ResourceModel\ContactUs\Grid\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Mohith\ContactUs\Model\ResourceModel\ContactUs\Grid\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magento_contact_us</argument>
+            <argument name="resourceModel" xsi:type="string">Mohith\ContactUs\Model\ResourceModel\ContactUs</argument>
+        </arguments>
+    </virtualType>
+</config>

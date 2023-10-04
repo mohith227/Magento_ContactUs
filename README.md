@@ -32,7 +32,7 @@ contactForm[comment]               SampleComment-From Rest Api<br>
 <!-- HTML Code End -->
  </body>
 </html>
-To Know more about how to use this Modlue refer to: https://itsmoblogs.blogspot.com/2023/10/magento-2-contact-us-grid-restapi-graphql.html
+To Know more about how to use this Modlue refer to: https://itsmoblogs.blogspot.com/2023/10/magento-2-contact-us-grid-restapi-graphql.html<br>
 
 
 Thank you for using the module. Always happy to hear from you. The code improvements and module enhancements are appreciated. For any Magento 2 projects or Magento 2 freelancing, contact me at "mohithdeveloper@gmail.com".
